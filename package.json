@@ -1,0 +1,21 @@
+{
+  "name": "playwright-sia-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+ "scripts": {
+  "test": "npx playwright test",
+  "multi": "node tests/multiWindowLogin.js"
+},
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.21"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
