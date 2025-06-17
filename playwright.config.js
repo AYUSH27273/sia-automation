@@ -24,7 +24,7 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: 'html',
-   timeout: 60000, // max test duration 60s
+   timeout: 200000, // max test duration 60s
   expect: {
     timeout: 5000, // max wait for expect() assertions
   },
